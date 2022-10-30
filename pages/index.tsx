@@ -58,7 +58,7 @@ const Home: NextPage = () => {
       else {
         const boardId = e.target.attributes['data-id'].value;
         const item = {
-          id: createGuidId(),
+          id: Number(createGuidId()),
           title: val,
           priority: 0,
           chat: 0,
