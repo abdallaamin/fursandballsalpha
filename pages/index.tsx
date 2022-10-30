@@ -48,7 +48,7 @@ const Home: NextPage = () => {
     setBoardData(newBoardData);
   };
 
-  const onTextAreaKeyPress = (e) => {
+  const onTextAreaKeyPress = (e:any) => {
     if (e.keyCode === 13) //Enter
     {
       const val = e.target.value;
